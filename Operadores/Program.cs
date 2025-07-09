@@ -61,19 +61,33 @@
 // }
 
 //Switch case
-Console.WriteLine("Digite uma letra:");
-string inputLetra = Console.ReadLine();
+// Console.WriteLine("Digite uma letra:");
+// string inputLetra = Console.ReadLine();
 
-switch (inputLetra)
+// switch (inputLetra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("VogaAAL!");
+//         break;
+//     default:
+//         Console.WriteLine("Não é uma vogal :( \n");
+//         break;
+// }
+
+//Operadores lógicos
+
+bool ehMaiorDeIdade = true;
+bool possuiAutorizacaoDoResponsavel = false;
+
+if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
 {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("VogaAAL!");
-        break;
-    default:
-        Console.WriteLine("Não é uma vogal :( \n");
-        break;
+    Console.WriteLine("Entrada liberada");
+}
+else
+{
+    Console.WriteLine("Entrada não Liberada");
 }
