@@ -26,12 +26,21 @@
 // Console.WriteLine(fromDouble);
 
 //implicit
-int inteiro = 9;
-long longFromInt = inteiro;
+// int inteiro = 9;
+// long longFromInt = inteiro;
 
- Console.WriteLine(longFromInt);
+//  Console.WriteLine(longFromInt);
 
-int inteiro = 10;
-string text = inteiro.ToString();
+// int inteiro = 10;
+// string text = inteiro.ToString();
 
-Console.WriteLine(text);
+// Console.WriteLine(text);
+
+string message = "alo";
+
+//int value = 0; Define no tryParse
+
+int.TryParse(message, out int value);
+
+Console.WriteLine(value);
+Console.WriteLine("Conversão realizada!");
