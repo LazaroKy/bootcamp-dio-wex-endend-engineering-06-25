@@ -14,13 +14,24 @@
 // c *= 4; //c = c *4;
 // Console.WriteLine(c);
 
-//Implicity and Explicity Convertion
+// int convertToInt = Convert.ToInt32("99"); // null -> 0
+// Console.WriteLine(convertToInt);
+// int parseToInt = int.Parse("5"); // null -> exception 
+// Console.WriteLine(parseToInt);
 
-int convertToInt = Convert.ToInt32("99"); // null -> 0
-Console.WriteLine(convertToInt);
-int parseToInt = int.Parse("5"); // null -> exception 
-Console.WriteLine(parseToInt);
+//Implicit and Explicit Convertion
+//Explicit
+// double toInt = 9.0;
+// int fromDouble = (int)toInt;
+// Console.WriteLine(fromDouble);
 
-double toInt = 9.0;
-int fromDouble = (int)toInt;
-Console.WriteLine(fromDouble);
+//implicit
+int inteiro = 9;
+long longFromInt = inteiro;
+
+ Console.WriteLine(longFromInt);
+
+int inteiro = 10;
+string text = inteiro.ToString();
+
+Console.WriteLine(text);
