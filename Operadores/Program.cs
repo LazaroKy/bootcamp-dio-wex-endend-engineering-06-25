@@ -47,15 +47,33 @@
 
 //Operadores condicionais
 
-int produtosEmEstoque = 10;
-int produtosComprados = 4;
-bool possivelComprar = produtosComprados <= produtosEmEstoque;
+// int produtosEmEstoque = 10;
+// int produtosComprados = 4;
+// bool possivelComprar = produtosComprados <= produtosEmEstoque;
 
-if (possivelComprar)
+// if (possivelComprar)
+// {
+//     Console.WriteLine("Venda realizada!");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe, estoque insuficiente.");
+// }
+
+//Switch case
+Console.WriteLine("Digite uma letra:");
+string inputLetra = Console.ReadLine();
+
+switch (inputLetra)
 {
-    Console.WriteLine("Venda realizada!");
-}
-else
-{
-    Console.WriteLine("Desculpe, estoque insuficiente.");
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("VogaAAL!");
+        break;
+    default:
+        Console.WriteLine("Não é uma vogal :( \n");
+        break;
 }
