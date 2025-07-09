@@ -36,11 +36,26 @@
 
 // Console.WriteLine(text);
 
-string message = "alo";
+// string message = "alo";
 
-//int value = 0; Define no tryParse
+// //int value = 0; Define no tryParse
 
-int.TryParse(message, out int value);
+// int.TryParse(message, out int value);
 
-Console.WriteLine(value);
-Console.WriteLine("Conversão realizada!");
+// Console.WriteLine(value);
+// Console.WriteLine("Conversão realizada!");
+
+//Operadores condicionais
+
+int produtosEmEstoque = 10;
+int produtosComprados = 4;
+bool possivelComprar = produtosComprados <= produtosEmEstoque;
+
+if (possivelComprar)
+{
+    Console.WriteLine("Venda realizada!");
+}
+else
+{
+    Console.WriteLine("Desculpe, estoque insuficiente.");
+}
