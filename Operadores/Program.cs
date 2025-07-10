@@ -80,14 +80,27 @@
 
 //Operadores lógicos
 
-bool ehMaiorDeIdade = true;
-bool possuiAutorizacaoDoResponsavel = false;
+// bool ehMaiorDeIdade = true;
+//bool possuiAutorizacaoDoResponsavel = false;
 
-if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
+//OR OPERATOR
+// if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
+// {
+//     Console.WriteLine("Entrada liberada");
+// }
+// else
+// {
+//     Console.WriteLine("Entrada não Liberada");
+// }
+
+bool ehMenorDeIdade = true;
+bool naoPossuiAutorizacaoDoResponsavel = true;
+//AND OPERATOR
+if (ehMenorDeIdade && naoPossuiAutorizacaoDoResponsavel)
 {
-    Console.WriteLine("Entrada liberada");
+    Console.WriteLine("Entrada não liberada");
 }
 else
 {
-    Console.WriteLine("Entrada não Liberada");
+    Console.WriteLine("Entrada Liberada");
 }
