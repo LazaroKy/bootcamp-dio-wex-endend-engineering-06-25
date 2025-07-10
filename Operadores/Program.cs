@@ -93,14 +93,27 @@
 //     Console.WriteLine("Entrada não Liberada");
 // }
 
-bool ehMenorDeIdade = true;
-bool naoPossuiAutorizacaoDoResponsavel = true;
-//AND OPERATOR
-if (ehMenorDeIdade && naoPossuiAutorizacaoDoResponsavel)
+// bool ehMenorDeIdade = true;
+// bool naoPossuiAutorizacaoDoResponsavel = true;
+// //AND OPERATOR
+// if (ehMenorDeIdade && naoPossuiAutorizacaoDoResponsavel)
+// {
+//     Console.WriteLine("Entrada não liberada");
+// }
+// else
+// {
+//     Console.WriteLine("Entrada Liberada");
+// }
+
+//NOT OPERATOR
+
+bool choveu = false;
+bool estaTarde = false;
+if (!choveu && !estaTarde)
 {
-    Console.WriteLine("Entrada não liberada");
+    Console.WriteLine("Vou pedalar");
 }
 else
 {
-    Console.WriteLine("Entrada Liberada");
+    Console.WriteLine("Vou pedalar amanhã");
 }
