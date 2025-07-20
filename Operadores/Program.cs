@@ -106,14 +106,31 @@
 // }
 
 //NOT OPERATOR
+// bool choveu = false;
+// bool estaTarde = false;
+// if (!choveu && !estaTarde)
+// {
+//     Console.WriteLine("Vou pedalar");
+// }
+// else
+// {
+//     Console.WriteLine("Vou pedalar amanhã");
+// }
 
-bool choveu = false;
-bool estaTarde = false;
-if (!choveu && !estaTarde)
-{
-    Console.WriteLine("Vou pedalar");
-}
-else
-{
-    Console.WriteLine("Vou pedalar amanhã");
-}
+using Operadores.model;
+
+Calculadora calcular = new Calculadora();
+
+calcular.Somar(2, 3);
+calcular.subtrair(4, 2);
+calcular.Multiplicar(2, 3);
+calcular.Dividir(3,2);
+calcular.IncrementarUm(2);
+calcular.DecrementarUm(2);
+calcular.RestoDaDivisão(5, 4);
+
+calcular.Seno(30);
+calcular.Coseno(45);
+calcular.Tangente(60);
+
+calcular.RaizQuadrada(9);
