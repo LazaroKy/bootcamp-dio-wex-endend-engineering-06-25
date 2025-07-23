@@ -14,8 +14,17 @@ arrayDeInteiros[2] = 30;
 //     Console.WriteLine($"Posição nº {contador} - {arrayDeInteiros[contador]}");
 // }
 
-Console.WriteLine("Using foreach ");
-foreach (int valor in arrayDeInteiros)
-{
-    Console.WriteLine(valor);
-}
+// Console.WriteLine("Using foreach ");
+// foreach (int valor in arrayDeInteiros)
+// {
+//     Console.WriteLine(valor);
+// }
+
+//Cria um cópia do seu array e "surge" com um array com a capacidade que você passar no seu antigo array
+Array.Resize(ref arrayDeInteiros, arrayDeInteiros.Length * 2);
+
+Console.WriteLine(arrayDeInteiros.Length);
+
+int[] arrayDeInteirosDobrado = new int[arrayDeInteiros.Length * 2];
+//Copiar elementos do um array e cria um novo array com o elementos do array copiado em suas posições.
+arrayDeInteiros.Copy(arrayDeInteiros, arrayDeInteirosDobrados, arrayDeInteiros.Length);
