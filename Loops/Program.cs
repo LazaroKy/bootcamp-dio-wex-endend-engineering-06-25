@@ -8,9 +8,16 @@ int numero = 5;
 // }
 
 //While loop
-while (numero != 0)
+// while (numero != 0)
+// {
+//     Console.WriteLine(numero--);
+//     Console.WriteLine("Break");
+//     break;
+// }
+
+//Do while
+do
 {
-    Console.WriteLine(numero--);
-    Console.WriteLine("Break");
-    break;
-}
+    numero--;
+    Console.WriteLine($"Loop acaba no 0, agora o valor é {numero}");
+} while (numero != 0);
