@@ -1,7 +1,13 @@
-﻿Pessoa pessoa = new Pessoa();
+﻿//Objeto
+Pessoa pessoa = new Pessoa();
 
 pessoa.Nome = "Alan";
 pessoa.Idade = "10";
 pessoa.Apresentar();
 
+Aluno aluno = new Aluno();
+aluno.Nome = "Pedro";
+aluno.Idade = 8;
+aluno.Nota = 9.0;
 
+aluno.Apresentar();
