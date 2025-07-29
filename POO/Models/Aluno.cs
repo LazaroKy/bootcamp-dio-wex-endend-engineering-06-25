@@ -9,8 +9,10 @@ namespace POO.Models
     {
         public double Nota { get; set; }
 
-        public void Apresentar(){
-            
+        
+        public override void Apresentar()
+        {
+            Console.WriteLine($"Olá, meu nome é {Nome}, tenho {Idade} anos e sou um aluno nota {Nota}");
         }
     }
 }
