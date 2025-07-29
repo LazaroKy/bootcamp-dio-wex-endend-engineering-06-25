@@ -59,6 +59,12 @@ DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm",
 DateTime dataExtenso = DateTime.Now;
 Console.WriteLine(dataExtenso.ToString("D"));
 
- long number = 8009999999;
-      string fmt = "000-000-0000";
-      Console.WriteLine(number.ToString(fmt));
+long number = 8009999999;
+string fmt = "000-000-0000";
+Console.WriteLine(number.ToString(fmt));
+
+List<string> nomes = new List<string>();
+char letraFiltro = 'a';
+//Comparar strings e Ignorar maiuscula/minusculas
+List<string> nomesFiltrados = nomes.FindAll(
+    nome => nome.StartsWith(letraFiltro.ToString(), StringComparison.OrdinalIgnoreCase));
