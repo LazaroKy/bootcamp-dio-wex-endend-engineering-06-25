@@ -17,7 +17,7 @@ Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture
 //Pode usar NumberFormat
 
 //Formatação personalizada
-Console.WriteLine(valorMonetario.ToString("C3"));
+Console.WriteLine(valorMonetario.ToString("C3")); //N2, duas casas decimal
 //Número de casas decimais
 
 //Usar N ele não utiliza o "tipo" da moeda, ex: R$
