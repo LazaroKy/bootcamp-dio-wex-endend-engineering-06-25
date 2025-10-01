@@ -37,6 +37,7 @@ LeituraArquivo file = new LeituraArquivo();
 //Console.WriteLine("Total de linhas: " + resultado.NumeroDeLinhas);
 
 // Usar o _ no lugar do nome do retorno ele traz a informação, mas explicíta o não uso
+/*
 var (sucesso, linhas_arquivo, _) = file.LerArquivo("./README.md");
 if (sucesso)
 {
@@ -50,3 +51,9 @@ else
 {
     Console.WriteLine("Não foi possível ler o arquivo");
 }
+*/
+Objeto obj = new Objeto(1, "lazaro");
+
+(int id, string nome) = obj;
+
+Console.WriteLine(id + " " + nome);
