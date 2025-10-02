@@ -1,5 +1,6 @@
 {
   "Id": 1,
   "Produto": "Pé de cabra",
-  "Preco": 97.0
+  "Preco": 97.0,
+  "DataVenda": "2025-10-02T02:30:09.1490087-03:00"
 }
