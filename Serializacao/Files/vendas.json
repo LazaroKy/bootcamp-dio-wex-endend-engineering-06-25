@@ -1,14 +1,14 @@
 [
   {
     "Id": 1,
-    "Produto": "Pé de cabra",
+    "Nome_Produto": "Pé de cabra",
     "Preco": 97.0,
-    "DataVenda": "2025-10-02T02:30:09.1490087-03:00"
+    "DataVenda": "2025-10-02T02:40:13.4517176-03:00"
   },
   {
     "Id": 2,
-    "Produto": "Tijolo",
+    "Nome_Produto": "Tijolo",
     "Preco": 47.0,
-    "DataVenda": "2025-10-02T02:30:09.2098293-03:00"
+    "DataVenda": "2025-10-02T02:40:13.5122515-03:00"
   }
 ]
